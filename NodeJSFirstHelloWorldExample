@@ -1,0 +1,7 @@
+Here is a video tutorial on to run serverless Hello World Web Application.
+Here is the code exports.handler = (event, context, callback)=>
+{
+//TODO implement
+callback(null, 'key1 value' + event.key1);
+
+};
